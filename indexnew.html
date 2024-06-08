@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylenew.css" />
+</head>
+<body>
+  <!--Navigation-->
+  <nav id="main-nav" class="nav">
+    <div class="container">
+      <div class="navbar">
+        <img class="logo" src="image/Logo.svg" />
+        <li class="nav-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </li>
+        <button type="button" class="contact-me-button">Contact Me</button>
+      </div>
+    </div>
+  </nav>
+
+  <!--header-->
+  <div id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="content">
+          <p class="intro">Haloo, welcome!!</p>
+          <h1>I create <span class="highlight">portofolio design</span> <br> and <span class="highlight-alt">my experience</span></h1>
+          <p class="description">Hello! My name is Serly Revalda Rudiana, often called Serly, <br>I was born in Samarinda</p>
+          <a href="#" class="btn">Get In Touch</a>
+        </div>
+        <div class="image-container">
+          <img src="image/profile.jpg" alt="Serly's photo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--My Skills-->
+  <div id="my-skills">
+    <div class="container">
+      <div class="my-skills">
+        <div class="my-skills-title">
+          <h5>My Skills</h5>
+          <h2>My Experience</h2>
+        <div class="my-skills-card">
+          <div class="service-card">
+              <h4>2018-2019</h4>
+              <h3>Create Animation</h3>
+              <p>Menggunakan Macromedia Flash Professional 8. Peningkatan kemampuan untuk membuat konsep dan membuat animasi yang menarik secara visual.</p>
+          </div>
+          <div class="service-card">
+              <h4>Juni 2022-Desember 2022</h4>
+              <h3>Internship At Samsung</h3>
+              <p>Melakukan perbaikan dan penggantian komponen, termasuk penempatan layar, penempatan baterai, dan perbaikan motherboard.
+                Menanggapi kontrol kualitas dengan melakukan pengujian menyeluruh pasca perbaikan untuk verifikasi fungsionalitas dan kinerja.</p>
+          </div>
+          <div class="service-card">
+              <h4>April 2023</h4>
+              <h3>Making An Amplifier</h3>
+              <p>Merancang dan membangun Amplifier sebagai bagian dari proyek sekolah. 
+                Peningkatan pemahaman tentang desain sirkuit elektronik dan keterampilan menyolder secara langsung.</p>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About Me-->
+  <div id="about-me">
+    <div class="container">
+      <div class="about-me-wrapper">
+       <div class="about-me-image">
+        <img src="image/aboutme.jpeg" alt="Profile Image" class="profile-image">
+        </div>
+        <div class="text-container">
+            <h5>About</h5>
+            <h2>About Me</h2>
+            <p>Hello! My name is Serly Revalda Rudiana,and I am currently a second semester student at the Samarinda State Agricultural Polytechnic majoring in Software Engineering Technology.I have a deep interest in technology and software development.</p>
+            <p>I am very interested in majoring in software engineering technology, and I continue to look for opportunities to expand my knowledge and skills in this field.</p>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Me-->
+  <div id="contact-me">
+    <div class="container">
+      <div class="contact-section">
+        <div class="contact-info">
+          <p><strong>Phone:</strong> +6285386249910</p>
+          <p><strong>Email:</strong> serlyrevalda0904@gmail.com</p>
+        </div>
+        <div class="contact-title">
+          <h5>Get in Touch</h5>
+          <h2>Contact me</h2>
+          <p>please here.</p>
+          <form action="#" method="post">
+            <div class="contact-group">
+                <div class="contact-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div class="contact-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+            </div>
+            <div class="contact-group">
+                <div class="contact-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="contact-field">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="contact-group">
+                <label for="topic">Choose a topic</label>
+                <select id="topic" name="topic">
+                    <option value="" disabled selected>Select one...</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="contact-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message..."></textarea>
+            </div>
+            <div class="contact-group">
+                <label class="checkbox">
+                    <input type="checkbox" id="terms" name="terms">
+                    I accept the terms
+                </label>
+            </div>
+          </form>
+          <button type="submit" class="button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <div id="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <img class="logo" src="image/Frame.svg" />
+          <li class="footer-menu">
+           <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Portfolio</a></li>
+             <li><a href="#">About Me</a></li>
+             <li><a href="#">Contact</a></il>
+             <li><a href="#">Testimonials</a></li>
+             <li><a href="#">Portfolio</a></li>
+           </ul>
+          </li>
+          <ul class="footer-sosmed">
+            <li>
+              <a href="https://www.facebook.com/serly.r.rudiana?mibextid=ZbWKwL">
+                <img src="image/Facebook.svg" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/serly_revalda?igsh=emtqemJ0bDV0YmUw">
+                <img src="image/Instagram.svg" alt="instagram" /></a>
+            </li>
+            <li>
+              <a href="https://www.threads.net/@serly_revalda">
+                <img src="image/Threads.svg" alt="Threads" /></a>
+            </li>
+            <li>
+              <a href="https://youtube.com/@serlyrevalda_?si=z6ZYGRxYRIEOfuPJ">
+                <img src="image/youtube.png" alt="youtube"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-credits">
+          <div class="footer-note">
+            <p>Made with <span class="heart">❤️</span> by Serly Revalda Rudiana</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Settings</a>
+                </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</body>
+</html>
