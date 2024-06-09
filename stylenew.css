@@ -273,9 +273,6 @@ body {
   padding-right: 85.3px;
   margin-bottom: 149.7px;
   display: flex;
-  width: fit-content;
-  box-sizing: border-box;
-  display: flex; 
   justify-content: center;
   align-items: center;
   flex-direction: row;
